@@ -16,9 +16,11 @@ O2Engine製 Campus Notes - Bill of Fare - のOSS版です
 * [ライセンス](/LICENSE)に同意できたら、copyrighted_assets フォルダ内のファイルをprojectフォルダの中に入れてください
 	* scenarioフォルダは中のファイルだけを入れて、projectフォルダ以下に元々あるscenarioフォルダを上書きしないように注意してください
 * O2Engineのフォルダ o2sdk-2.2.1 をbill_of_fareフォルダに移動してください
-* o2sdk-2.2.1フォルダ直下で、コマンドラインで以下のコマンドを実行してください
-	* `mono builder.exe -y ../project build` (Mac OSXの場合)
+* o2sdk-2.2.2/pluginsフォルダ内 `ns_assist.js` をproject/pluginsフォルダ内に移動してください
+* o2sdk-2.2.1/builderフォルダ直下で、コマンドラインで以下のコマンドを実行してください
+	* `mono builder.exe -y ../project ../../build` (Mac OSXの場合)
 	* Windowsの場合もほぼ同様の手順で出来るはずです。 O2Engineのドキュメントを参考にしてください。
+* ブラウザで build/index
 * 参考にして自分のゲームを作ってください！
 
 ### 自分のプログラムを公開する前に
