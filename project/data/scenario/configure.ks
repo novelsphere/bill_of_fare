@@ -14,11 +14,7 @@
 *system
 
 [if o2_exp="f.isDebug"]
-; debug mode
 	[o2_loadplugin module="debug.js"]
-[else]
-; release mode
-	[o2_loadplugin module="ns_checklogin.js"]
 [endif]
 
 [return]
